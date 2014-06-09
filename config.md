@@ -1,3 +1,33 @@
+- [Maintaining configurations for different environments](#user-content-maintaining-configurations-for-different-environments)
+	- [Providing config:](#user-content-providing-config)
+	- [Adding new config environment:](#user-content-adding-new-config-environment)
+	- [Specifying configuration properties:](#user-content-specifying-configuration-properties)
+		- [Property value is same for all environments:](#user-content-property-value-is-same-for-all-environments)
+		- [Property value is different for certain environments:](#user-content-property-value-is-different-for-certain-environments)
+	- [Generating properties files:](#user-content-generating-properties-files)
+		- [From command line:](#user-content-from-command-line)
+		- [From IDE:](#user-content-from-ide)
+	- [Setting the app config](#user-content-setting-the-app-config)
+	- [Generating app config:](#user-content-generating-app-config)
+		- [From command line:](#user-content-from-command-line-1)
+		- [From IDE:](#user-content-from-ide-1)
+	- [Build version labelling](#user-content-build-version-labelling)
+		- [Finding the appropriate name and version code:](#user-content-finding-the-appropriate-name-and-version-code)
+		- [Finding version name:](#user-content-finding-version-name)
+	- [Generating build version labels:](#user-content-generating-build-version-labels)
+		- [From command line:](#user-content-from-command-line-2)
+		- [From IDE:](#user-content-from-ide-2)
+	- [Deciding which configuration to use](#user-content-deciding-which-configuration-to-use)
+		- [Market configuration](#user-content-market-configuration)
+		- [Beta configuration](#user-content-beta-configuration)
+		- [Alpha configuration](#user-content-alpha-configuration)
+		- [QA configuration](#user-content-qa-configuration)
+		- [DEV configuration](#user-content-dev-configuration)
+
+
+---
+
+
 ## Maintaining configurations for different environments
 
 ### Providing config:
