@@ -2,7 +2,7 @@ test git merge method.
 
 This is secand line
 
-This is thard line
+This is third line
 
 This is fourth line
 
