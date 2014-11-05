@@ -1,6 +1,6 @@
 test git merge method.
 
-This is secand line
+This is second line
 
 This is third line
 
